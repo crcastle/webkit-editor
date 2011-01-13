@@ -1,0 +1,3 @@
+[submodule "deps/node-static"]
+	path = deps/node-static
+	url = http://github.com/cloudhead/node-static.git

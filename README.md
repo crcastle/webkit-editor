@@ -10,7 +10,11 @@ This is an experiment in creating a text editor (for computer code) in Safari/We
 
 Open `index.html` or <a href="http://hunch.se/webkit-editor/">try it out online</a>.
 
-Or install a <a href="http://nodejs.org/">Node.js</a> server locally so the AJAX parts work.  After node is installed, run <pre>node server.js</pre> and then go to http://localhost:8001/index.html in a browser..
+Or, optionally, install a <a href="http://nodejs.org/">Node.js</a> server locally so the AJAX parts work.  To do that, follow these steps:
+1. Install node.js (download at link above and follow instructions to compile and install)
+2. Run the following command to ensure the node-statis dependency is installed: <pre>git submodule update --init --recursive</pre>
+3. On the command line, run <pre>node server.js</pre>
+4. Go to <a href src="http://localhost:8001/index.html">http://localhost:8001/index.html</a> in a browser (assuming your running node locally).
 
 ### Disabling Prettify (syntax highlighting)
 
