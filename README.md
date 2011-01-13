@@ -10,6 +10,8 @@ This is an experiment in creating a text editor (for computer code) in Safari/We
 
 Open `index.html` or <a href="http://hunch.se/webkit-editor/">try it out online</a>.
 
+Or install a <a href="http://nodejs.org/">Node.js</a> server locally so the AJAX parts work.  After node is installed, run <pre>node server.js</pre> and then go to http://localhost:8001/index.html in a browser..
+
 ### Disabling Prettify (syntax highlighting)
 
 This thing currently uses [Google Prettify](http://code.google.com/p/google-code-prettify/) for syntax highlighting which is very buggy. You can disable prettify (and thus enable things like undo/redo which breaks with Prettify) by changing the following line in `index.html`:
